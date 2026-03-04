@@ -1,0 +1,7 @@
+[flake8]
+exclude = venv,__pycache__,.git,.pytest_cache,model
+max-line-length = 88
+
+# Temporary while TODO scaffolding exists.
+# We'll remove/trim these at the end.
+ignore = F401,F841,E261,E302,E303,E305,W291,W391
